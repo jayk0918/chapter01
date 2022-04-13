@@ -6,7 +6,7 @@ public class Ex01 {
 		
 		// 논리 설계		
 		int myAge;
-			//int : 자료형 중 정수형
+		//int : 자료형 중 정수형
 		myAge = 25;
 		
 		// 출력		
@@ -28,9 +28,11 @@ public class Ex01 {
 		
 		//입력 방식 선택
 		int myAge_2 = 20; // 변수선언 + 초기화 = 값이 확실할 때 주로 사용
+		System.out.println(myAge_2);
 		// vs
 		int myAge_3;
-		myAge = 20;
+		myAge_3 = 20;
+		System.out.println(myAge_3);
 		// 변수선언을 우선적으로 한 다음 향후 값이 결정되었을 때 부여하는 방법
 	
 		//////////////////////////
@@ -55,6 +57,9 @@ public class Ex01 {
 		int var04 = 10;
 		int var05 = 20;
 		int var06 = 30;
+		
+		System.out.println(var01 + var02 + var03 + var04 + var05 + var06);
+		// 노란색 오류 보기 싫어서 씀
 		// int var04 = 10, var05 = 20, var06 = 30;과 같음
 		
 		// 노란색 오류 : The value of the local variable(로컬 변수) + (변수명) is not used
