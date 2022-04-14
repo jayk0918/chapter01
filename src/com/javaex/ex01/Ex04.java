@@ -1,4 +1,4 @@
-package com.javaex.chapter01;
+package com.javaex.ex01;
 
 public class Ex04 {
 
@@ -28,7 +28,7 @@ public class Ex04 {
 		(String) name;			//이름
 		(boolean) isEnrolled;	//등록 여부
 		(float)	gradeF;			//평점
-		(double은 굳이?)
+		(double은 굳이?-> 0~4.5사이의 구간이니까)
 		(String) address;		//주소
 		(String) major;			//전공
 		(int) unit;				//이수 학점
